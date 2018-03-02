@@ -75,3 +75,9 @@ for (var i=0; i<chall4A.length; i++) {
     chall4A[i] = chall4A[i] * 2;
 };
 document.getElementById('challenge-4').innerHTML += chall4A;
+
+var chall4B = [ 3, 8, 1, 2, 4, 12 ];
+for (var i=0; i<chall4B.length; i++) {
+    chall4B[i] = chall4B[i] * 2;
+};
+document.getElementById('challenge-4').innerHTML += '<br>' + chall4B;
