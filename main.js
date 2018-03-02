@@ -66,3 +66,12 @@ for (var i=0; i<challengeTwoInputC.length; i++) {
         }
     }
 document.getElementById('challenge-2').innerHTML += '<br>' + challengeTwoInputC;
+
+
+// Challenge 4
+
+var chall4A = [1,2,3];
+for (var i=0; i<chall4A.length; i++) {
+    chall4A[i] = chall4A[i] * 2;
+};
+document.getElementById('challenge-4').innerHTML += chall4A;
