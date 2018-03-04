@@ -106,3 +106,32 @@ for (var i=0; i<array1.length; i++) {
     }
 }
 document.getElementById('challenge-5').innerHTML += '<br>' + array1;
+
+// Challenge 6
+
+var test1 = [1,3];
+var missing = [];
+for (var i=1; i<test1.length + 1; i++) {
+    if (test1.indexOf(i) === -1) {
+        missing.push(i);
+    }
+}
+document.getElementById('challenge-6').innerHTML += missing;
+
+var test2 = [2,3,4];
+var missing = [];
+for (var i=1; i<test2.length + 1; i++) {
+    if (test2.indexOf(i) === -1) {
+        missing.push(i);
+    }
+}
+document.getElementById('challenge-6').innerHTML += '<br>' + missing;
+
+var test3 = [13,11,10,3,2,1,4,5,6,9,7,8];
+var missing = [];
+for (var i=1; i<test3.length + 1; i++) {
+    if (test3.indexOf(i) === -1) {
+        missing.push(i);
+    }
+}
+document.getElementById('challenge-6').innerHTML += '<br>' + missing;
