@@ -81,3 +81,28 @@ for (var i=0; i<chall4B.length; i++) {
     chall4B[i] = chall4B[i] * 2;
 };
 document.getElementById('challenge-4').innerHTML += '<br>' + chall4B;
+
+
+// Challenge 5
+
+var array1 = [1,2];
+var array2 = [1];
+for (var i=0; i<array1.length; i++) {
+    for (var j=0; j<array2.length; j++) {
+        if (array1[i] === array2[j]) {
+            array1.splice(i, 1);
+        }
+    }
+}
+document.getElementById('challenge-5').innerHTML += array1;
+
+var array1 = [1, 2, 4, 7, 5, 9];
+var array2 = [5, 9, 2];
+for (var i=0; i<array1.length; i++) {
+    for (var j=0; j<array2.length; j++) {
+        if (array1[i] === array2[j]) {
+            array1.splice(i, 1);
+        }
+    }
+}
+document.getElementById('challenge-5').innerHTML += '<br>' + array1;
