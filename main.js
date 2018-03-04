@@ -106,3 +106,12 @@ for (var i=0; i<array1.length; i++) {
     }
 }
 document.getElementById('challenge-5').innerHTML += '<br>' + array1;
+
+// Challenge 10
+bowlingPins = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (var i=0; i<bowlingPins.length; i++) {
+    if (bowlingPins[i] === 3 || bowlingPins[i] === 5 || bowlingPins[i] === 9) {
+        bowlingPins.splice(i, 1);
+    }
+}
+document.getElementById('challenge-10').innerHTML += bowlingPins;
