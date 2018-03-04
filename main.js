@@ -135,3 +135,11 @@ for (var i=1; i<test3.length + 1; i++) {
     }
 }
 document.getElementById('challenge-6').innerHTML += '<br>' + missing;
+
+// Challenge 9
+
+var phoneNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+var num2 = phoneNumber.splice(0, 0, '(');
+var num3 = phoneNumber.splice(4, 0, ') ');
+var num4 = phoneNumber.splice(8, 0, '-');
+document.getElementById('challenge-9').innerHTML += phoneNumber.join('');
