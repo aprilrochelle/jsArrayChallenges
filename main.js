@@ -107,7 +107,7 @@ for (var i=0; i<array1.length; i++) {
 }
 document.getElementById('challenge-5').innerHTML += '<br>' + array1;
 
-=======
+
 // Challenge 6
 
 var test1 = [1,3];
