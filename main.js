@@ -143,3 +143,4 @@ var num2 = phoneNumber.splice(0, 0, '(');
 var num3 = phoneNumber.splice(4, 0, ') ');
 var num4 = phoneNumber.splice(8, 0, '-');
 document.getElementById('challenge-9').innerHTML += phoneNumber.join('');
+
